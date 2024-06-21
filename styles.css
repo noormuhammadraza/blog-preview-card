@@ -36,11 +36,18 @@ h6 {
 }
 /* CSS Reset <-- */
 
+@font-face {
+  font-family: "Figtree_Normal";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
 :root {
   --yellow: hsl(47, 88%, 63%);
   --white: hsl(0, 0%, 100%);
   --grey: hsl(0, 0%, 50%);
   --black: hsl(0, 0%, 7%);
+
+  font-family: "Figtree_Normal";
 }
 
 body {
@@ -55,4 +62,10 @@ body {
   border: 1px dashed blue;
   width: 300px;
   background-color: var(--white);
+  padding: 1em;
+  border-radius: 20px;
+}
+
+.card-image {
+  border: 2px dashed black;
 }
