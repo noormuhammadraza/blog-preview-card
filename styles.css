@@ -35,3 +35,24 @@ h6 {
   overflow-wrap: break-word;
 }
 /* CSS Reset <-- */
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+}
+
+body {
+  border: 1px solid red;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--yellow);
+}
+
+.card {
+  border: 1px dashed blue;
+  width: 300px;
+  background-color: var(--white);
+}
