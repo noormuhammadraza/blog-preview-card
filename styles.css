@@ -6,6 +6,7 @@
 }
 * {
   margin: 0;
+  padding: 0;
 }
 body {
   line-height: 1.5;
@@ -68,4 +69,23 @@ body {
 
 .card-image {
   border: 2px dashed black;
+  margin-bottom: 1em;
+}
+
+.card-metadata {
+  border: 1px dashed red;
+}
+
+.card-metadata label {
+  font-size: 0.6rem;
+  background-color: var(--yellow);
+  padding: 0.45em 0.85em 0.45em 0.85em;
+  border-radius: 2px;
+  font-weight: 900;
+}
+
+.card-metadata p {
+  font-size: 0.6em;
+  font-weight: 600;
+  margin-top: 0.75em;
 }
