@@ -73,9 +73,17 @@ body {
 }
 
 .card-metadata {
-  border: 1px dashed red;
+  /* border: 1px solid black; */
   font-size: 0.6rem;
+  margin-bottom: 1.3em;
 }
+
+/* NOTE: Font-Weight is 100 more than the specified in style-guide.md
+  For now, It matches the design more closely
+  After completing everything
+  It could be reduced to match the style-guide.md
+  If current styling does not match the design
+*/
 
 .card-metadata label {
   display: inline-block;
@@ -88,4 +96,21 @@ body {
 
 .card-metadata p {
   font-weight: 600;
+}
+
+/* .card-data {
+  border: 1px dashed red;
+} */
+
+.card-data h1 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--black);
+  margin-bottom: 0.7em;
+}
+
+.card-data p {
+  font-size: 0.75rem;
+  color: var(--grey);
+  font-weight: 500;
 }
