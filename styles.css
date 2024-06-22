@@ -98,9 +98,10 @@ body {
   font-weight: 600;
 }
 
-/* .card-data {
-  border: 1px dashed red;
-} */
+.card-data {
+  /* border: 1px dashed red; */
+  margin-bottom: 1.2em;
+}
 
 .card-data h1 {
   font-size: 1rem;
@@ -113,4 +114,24 @@ body {
   font-size: 0.75rem;
   color: var(--grey);
   font-weight: 500;
+}
+
+.card-author {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 0.65em;
+}
+
+.card-author-image {
+  /* border: 1px dashed black; */
+  width: 1.7em;
+}
+
+.card-author p {
+  font-size: 0.73rem;
+  font-weight: 900;
+  padding-top: 0.1em;
+  /* border: 1px dashed black; */
+  display: inline-block;
 }
