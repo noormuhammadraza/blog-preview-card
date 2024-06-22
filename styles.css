@@ -61,18 +61,19 @@ body {
 
 .card {
   border: 1px dashed blue;
-  width: 310px;
+  width: 270px;
   background-color: var(--white);
   padding: 1em;
   border-radius: 20px;
 }
 
 .card-image {
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
   margin-bottom: 1em;
-  width: 280px;
-  height: 201px;
+  width: 235px;
+  height: 170px;
   overflow: hidden;
+  border-radius: 10px;
   /* height: auto; */
 }
 
