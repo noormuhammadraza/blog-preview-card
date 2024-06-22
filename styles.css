@@ -74,18 +74,18 @@ body {
 
 .card-metadata {
   border: 1px dashed red;
+  font-size: 0.6rem;
 }
 
 .card-metadata label {
-  font-size: 0.6rem;
+  display: inline-block;
+  margin-bottom: 0.8em;
   background-color: var(--yellow);
-  padding: 0.45em 0.85em 0.45em 0.85em;
+  padding: 0.35em 0.9em;
   border-radius: 2px;
   font-weight: 900;
 }
 
 .card-metadata p {
-  font-size: 0.6em;
   font-weight: 600;
-  margin-top: 0.75em;
 }
