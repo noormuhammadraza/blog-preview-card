@@ -159,4 +159,15 @@ body {
   .card-image {
     width: 100%;
   }
+
+  .card-metadata {
+    font-size: 0.72rem;
+
+    /* margin-bottom: 1.1em; */
+  }
+
+  .card-metadata label {
+    padding: 0.3em 0.9em;
+    border-radius: 3px;
+  }
 }
