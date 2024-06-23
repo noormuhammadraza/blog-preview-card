@@ -61,7 +61,7 @@ body {
 
 .card {
   border: 1px solid var(--black);
-  box-shadow: 4px 4px 0px 2px;
+  box-shadow: 6px 6px 0px 0px;
   width: 270px;
   background-color: var(--white);
   padding: 1em;
