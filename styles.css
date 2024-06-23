@@ -88,13 +88,6 @@ body {
   margin-bottom: 1.1em;
 }
 
-/* NOTE: Font-Weight is 100 more than the specified in style-guide.md
-  For now, It matches the design more closely
-  After completing everything
-  It could be reduced to match the style-guide.md
-  If current styling does not match the design
-*/
-
 .card-metadata label {
   display: inline-block;
   margin-bottom: 0.8em;
@@ -137,7 +130,7 @@ body {
 
 .card-author p {
   font-size: 0.73rem;
-  font-weight: 900;
+  font-weight: 800;
   padding-top: 0.1em;
   display: inline-block;
 }
