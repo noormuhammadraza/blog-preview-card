@@ -150,3 +150,13 @@ body {
   /* border: 1px dashed black; */
   display: inline-block;
 }
+
+@media screen and (min-width: 560px) {
+  .card {
+    width: 320px;
+  }
+
+  .card-image {
+    width: 100%;
+  }
+}
