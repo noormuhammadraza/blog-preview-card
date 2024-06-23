@@ -180,6 +180,11 @@ body {
     font-size: 1.25rem;
   }
 
+  .card-data h1:hover {
+    cursor: pointer;
+    color: var(--yellow);
+  }
+
   .card-data p {
     font-size: 0.85rem;
   }
