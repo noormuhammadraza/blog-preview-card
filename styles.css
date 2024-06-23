@@ -60,11 +60,12 @@ body {
 }
 
 .card {
-  border: 1px dashed blue;
+  border: 1px solid var(--black);
+  box-shadow: 4px 4px 0px 2px;
   width: 270px;
   background-color: var(--white);
   padding: 1em;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .card-image {
