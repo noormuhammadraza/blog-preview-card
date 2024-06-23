@@ -170,4 +170,16 @@ body {
     padding: 0.3em 0.9em;
     border-radius: 3px;
   }
+
+  .card-data {
+    margin-bottom: 1.2em;
+  }
+
+  .card-data h1 {
+    font-size: 1.3rem;
+  }
+
+  .card-data p {
+    font-size: 0.85rem;
+  }
 }
