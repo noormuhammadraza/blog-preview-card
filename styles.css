@@ -101,11 +101,11 @@ body {
   background-color: var(--yellow);
   padding: 0.35em 0.9em;
   border-radius: 2px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .card-metadata p {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .card-data {
@@ -114,7 +114,7 @@ body {
 
 .card-data h1 {
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: 800;
   color: var(--black);
   margin-bottom: 0.55em;
 }
