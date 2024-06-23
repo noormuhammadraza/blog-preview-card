@@ -150,7 +150,7 @@ body {
   }
 
   .card-metadata {
-    font-size: 0.92rem;
+    font-size: 0.72rem;
   }
 
   .card-metadata label {
@@ -172,7 +172,7 @@ body {
   }
 
   .card-data p {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
   }
 
   .card-author-image {
@@ -180,6 +180,6 @@ body {
   }
 
   .card-author p {
-    font-size: 0.93rem;
+    font-size: 0.73rem;
   }
 }
